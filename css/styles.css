@@ -1,0 +1,55 @@
+/* styles.css */
+
+.login-body {
+  background-image: url('../asset/Bg Login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; /* Untuk menghindari pengulangan gambar */
+  background-position: center; /* Memastikan gambar selalu di-tengah */
+}
+
+
+.calendar-header {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.today {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.card-jam {
+  margin-bottom: 20px; /* Spasi bawah untuk memisahkan dari elemen berikutnya */
+}
+
+/* Gaya untuk jam */
+#jam-sekarang {
+  font-size: 24px; /* Ukuran font jam */
+  font-weight: bold; /* Tebalkan font jam */
+}
+
+#jam-sekarang {
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+
+/* General styles */
+.bg-body-tertiary {
+  background-color: #f0f0f0;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  .container {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* Adjust styles for even smaller screens here */
+  .container {
+    padding: 0;
+  }
+}
